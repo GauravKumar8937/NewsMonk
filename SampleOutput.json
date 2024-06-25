@@ -1,0 +1,58 @@
+{
+    "status": "ok",
+    "totalResults": 4,
+    "articles": [
+      {
+        "source": {
+          "id": "gruenderszene",
+          "name": "Gruenderszene"
+        },
+        "author": null,
+        "title": "Sensoren, KI und Spielanalyse: 8 deutsche Startups, die den Fußball digitalisieren",
+        "description": "Die DFL will Fußball digitaler machen. Deutsche Startups wie Onefootball oder Kinexon arbeiten schon länger daran.",
+        "url": "https://www.businessinsider.de/gruenderszene/business/sensoren-ki-spielanalyse-acht-deutsche-startups-die-den-fussball-digitalisieren-b/",
+        "urlToImage": "https://cdn.businessinsider.de/wp-content/uploads/2022/12/GettyImages-130409206-scaled.jpg?ver=1718902368",
+        "publishedAt": "2024-06-21T04:00:00+00:00",
+        "content": "Die DFL will Fußball digitaler machen. Deutsche Startups wie Onefootball oder Kinexon arbeiten schon länger daran."
+      },
+      {
+        "source": {
+          "id": "fox-sports",
+          "name": "Fox Sports"
+        },
+        "author": null,
+        "title": "National Football League\n     <!----> \n        Five potential Cowboys picks to track at the NFL Draft Combine\n       \n      1 hour ago",
+        "description": null,
+        "url": "http://www.foxsports.com/stories/nfl/five-potential-cowboys-picks-to-track-at-the-nfl-draft-combine",
+        "urlToImage": null,
+        "publishedAt": "2024-02-29T18:37:22.5746516Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "bleacher-report",
+          "name": "Bleacher Report"
+        },
+        "author": "David Kenyon",
+        "title": "Unique Stats from the 2023 College Football Regular Season",
+        "description": "Numbers are an integral part of college football. Whether you're previewing games, ranking teams or picking an award winner, statistics help shape the story.…",
+        "url": "https://bleacherreport.com/articles/10100739-unique-stats-from-the-2023-college-football-regular-season",
+        "urlToImage": "https://media.bleacherreport.com/image/upload/c_fill,g_faces,w_3800,h_2000,q_95/v1702319871/sdx1wjlqkcqz3anqfabp.jpg",
+        "publishedAt": "2023-12-12T12:00:00Z",
+        "content": "Zach Bolinger/Icon Sportswire via Getty Images\r\nSpeaking of Iowa...\r\nWhat makes the Hawkeyes' stellar defensive season even more impressive is how much the team desperately needed it.\r\nAmong the many… [+711 chars]"
+      },
+      {
+        "source": {
+          "id": "espn-cric-info",
+          "name": "ESPN Cric Info"
+        },
+        "author": null,
+        "title": "Five famous people (and one cat) you didn't know have ESPNcricinfo profiles | ESPNcricinfo.com",
+        "description": "Why do a footballer, a Nobel laureate and a prime minister (no, not Imran Khan) find themselves in the ESPNcricinfo player database? | ESPNcricinfo.com",
+        "url": "http://www.espncricinfo.com/story/_/id/29102695/five-famous-people-one-cat-know-espncricinfo-profiles",
+        "urlToImage": "https://a.espncdn.com/i/cricket/cricinfo/1221668_1296x1296.gif",
+        "publishedAt": "2020-04-27T07:20:43Z",
+        "content": "Why do a cat, a footballer, a Nobel laureate and a prime minister find themselves in the ESPNcricinfo database? Here are six player profiles you wouldn't have expected we had.\r\nPeter the catThe only … [+5504 chars]"
+      }
+    ]
+  }
