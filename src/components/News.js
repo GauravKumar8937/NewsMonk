@@ -38,19 +38,23 @@ export class News extends Component {
   }
 
   async updateNews() {
-    let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=d1d298e1eabb48b1855bda547b443650&page=${this.state.page}&pageSize=${this.props.pageSize}`;
+    this.props.setProgress(0)
+    let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apikey}&page=${this.state.page}&pageSize=${this.props.pageSize}`;
     let data = await fetch(url);
+    this.props.setProgress(30);
     let parseData = await data.json();
+    this.props.setProgress(60);
     this.setState({
       articles: parseData.articles,
       totalResults: parseData.totalResults,
       loading : false
     });
+    this.props.setProgress(100)
   }
 
   fetchMoreData = async () =>{
     this.setState({page : this.state.page+1})
-    let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=d1d298e1eabb48b1855bda547b443650&page=${this.state.page}&pageSize=${this.props.pageSize}`;
+    let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apikey}&page=${this.state.page}&pageSize=${this.props.pageSize}`;
     let data = await fetch(url);
     let parseData = await data.json();
     this.setState({
@@ -62,7 +66,7 @@ export class News extends Component {
   render() {
     return (
       <>
-        <h1 className="text-center" style={{ margin: "35px" }}>
+        <h1 className="text-center"  style={{ margin: "35px",color: this.state.mode==='dark'?'white':'black'}}>
           NewsMonkey- {this.capitalize(this.props.category)}
         </h1>
         {this.state.loading && <Spinner />}
